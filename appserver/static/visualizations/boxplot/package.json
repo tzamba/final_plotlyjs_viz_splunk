@@ -1,0 +1,25 @@
+{
+  "name": "boxplot_graph",
+  "version": "1.0.0",
+  "description": "Visualization app template.",
+  "main": "visualization.js",
+  "scripts": {
+    "build": "$SPLUNK_HOME/bin/splunk cmd node ./node_modules/webpack/bin/webpack.js",
+    "devbuild": "$SPLUNK_HOME/bin/splunk cmd node ./node_modules/webpack/bin/webpack.js --progress",
+    "watch": "$SPLUNK_HOME/bin/splunk cmd node ./node_modules/webpack/bin/webpack.js -d --watch --progress"
+  },
+  "author": "Splunk",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^1.12.6"
+  },
+  "dependencies": {
+    "d3": "^5.7.0",
+    "jquery": "^2.2.4",
+    "plotly": "^1.0.6",
+    "plotly.js": "^1.39.3",
+    "regexp-replace-loader": "^1.0.1",
+    "save": "^2.3.2",
+    "underscore": "^1.9.1"
+  }
+}
