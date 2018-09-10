@@ -9,3 +9,9 @@ modtime = 1532925560.008947000
 [app/package/check_for_updates]
 version = 7.1.1
 modtime = 1532925560.011248000
+
+[]
+access = read : [ * ], write : [ admin, power ]
+export = system
+version = 7.1.1
+modtime = 1536351077.953763000
