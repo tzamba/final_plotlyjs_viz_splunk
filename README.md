@@ -1,4 +1,4 @@
-# Plotly.js Custom Vizualization Project - Splunk SE Summer Internship 2018
+# Plotly.js Custom Visualization Project - Splunk SE Summer Internship 2018
 The plotly.js visualization library packaged as a Splunk application to expose the charts via the Splunk Custom Visualization Framework
 
 
