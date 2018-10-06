@@ -26,6 +26,12 @@ Sample SPL Search for Candlestick/OHLC:
 | eval low=if(open < close,open-(open*.1),close-(close*.1))
 | fields - sign,count
 ```
+Candlestick
+![alt text](https://github.com/tzamba/final_plotlyjs_viz_splunk/candlestick_chart.PNG "Candlestick Chart")
+
+OHLC - Open High Low Close
+![alt text](https://github.com/tzamba/final_plotlyjs_viz_splunk/ohlc_chart.PNG "OHLC Chart")
+
 
 2. Box Plot Chart - for displaying Statistical Data.    [BoxPlot source code](https://github.com/tmuth/plotly_custom_viz_splunk/blob/master/appserver/static/visualizations/boxplot/src/visualization_source.js)
 
@@ -38,4 +44,4 @@ Sample SPL Search for BoxPlot:
 | eval y=random() %51
 | fields - _time
 ```
-
+![alt text](https://github.com/tzamba/final_plotlyjs_viz_splunk/boxplot_chart.PNG "Boxplot Chart")
